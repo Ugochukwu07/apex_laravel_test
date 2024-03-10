@@ -28,7 +28,7 @@ class AuthenticationTest extends TestCase
     /** @test */
     public function user_can_login()
     {
-        $user = User::factory()->create([
+        User::factory()->create([
             "email" => "testx@example.com",
             'password' => bcrypt('password'),
             'roles' => UserRoleEnum::User->value
