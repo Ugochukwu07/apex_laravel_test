@@ -34,6 +34,7 @@ class CreateUserRequest extends FormRequest
     }
 
     public function failedValidation(Validator $validator){
+        // dd($validator->errors());
         $response = self::returnMessage($validator);
 
         throw new ValidationException($validator, $response);
