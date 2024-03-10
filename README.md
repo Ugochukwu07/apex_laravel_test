@@ -8,13 +8,13 @@ This project is built with Laravel, offering a robust set of APIs for user manag
 1. **Clone the repository:**
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ugochukwu07/apex_laravel_test.git
 ```
 
 2. **Install dependencies:**
 Navigate into your project directory and install the Composer dependencies:
 ```bash
-cd <project-directory>
+cd /apex_laravel_test
 composer install
 ```
 
